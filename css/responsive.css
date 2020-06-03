@@ -1,0 +1,19 @@
+@media  (min-device-width : 320px) and (max-device-width : 480px) {
+    .container-flex{
+        overflow:hidden;
+        
+    }
+    .welco{
+        font-size: 40px;
+    }
+    .emon .background .welco{
+    padding-top:30%;
+    }
+    .background .me{
+        margin-top:20%;
+        color:gold;
+        font-size:25px;
+    }
+}
+
+

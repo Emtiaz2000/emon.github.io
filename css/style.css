@@ -1,0 +1,74 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.emon img{
+    width:100%;
+    height:600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    z-index: 1;
+    
+}
+.emon{
+    position:relative;
+}
+.emon .background{
+    position:absolute;
+    height:100%;
+    width:100%;
+    background: #000000b8;
+    z-index:2;
+    top:0px;
+}
+.emon .background .welco{
+    padding-top:16%;
+}
+.background .me{
+    margin-top:7%;
+    color:gold;
+    font-size:25px;
+   
+}
+
+#about-me-sec .row{
+    margin-top:80px;
+}
+#about-me .card{
+ padding-top:20px;
+}
+.card{
+z-index: 3;
+transition:.3s ease all;
+   
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+#skill{
+    display:block;
+    background: #e9ecef;
+    padding-top:20px;
+    width: 50%;
+    margin-left:8%;
+   
+}
+}
+ .barfiller {
+    width: 100%;
+    height: 21px;
+    background: #fcfcfc;
+    border: 1px solid #ccc;
+    position: relative;
+    margin-bottom: 20px;
+    box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,.5);
+}
+.projectme{
+    padding:10px;
+}
+#project-1strow{
+    padding-top:30px;
+}
